@@ -17,7 +17,7 @@ hartex_database_queries = { path = "../../database/hartex-database-queries" }
 
 hartex_log = { path = "../../rust-utilities/hartex-log" }
 
-axum = { version = "0.7.7", features = ["json", "macros"] }
+axum = { version = "0.8.0", features = ["json", "macros"] }
 axum-extra = "0.9.4"
 bb8-postgres = "0.9.0"
 futures-util = "0.3.31"
